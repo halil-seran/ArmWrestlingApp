@@ -3,7 +3,12 @@ import { StyleSheet, Text, View } from "react-native";
 import { MyTabs as Navigation } from "./navigation";
 
 export default function App() {
-  return <Navigation />;
+  return (
+    <>
+      <Navigation />
+      {/* <StatusBar hidden={false} /> */}
+    </>
+  );
 }
 
 const styles = StyleSheet.create({
