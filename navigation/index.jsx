@@ -1,11 +1,24 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { ExercisesScreen } from "../screens/ExercisesScreen";
-import { SettingsScreen } from "../screens/SettingsScreen";
-import { TechniquesScreen } from "../screens/TechniquesScreen";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { NavigationContainer } from "@react-navigation/native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { SectionsScreen } from "../screens/SectionsScreen";
+import { TechniquesScreen } from "../screens/TechniquesScreen";
+import { SettingsScreen } from "../screens/SettingsScreen";
+import { ExercisesScreen } from "../screens/ExercisesScreen";
 
 const Tab = createBottomTabNavigator();
+
+const HomeStack = createNativeStackNavigator();
+
+function ExercisesStackScreen() {
+  return (
+    <HomeStack.Navigator>
+      <HomeStack.Screen name="Section" component={SectionsScreen} />
+      <HomeStack.Screen name="Exercise" component={ExercisesScreen} />
+    </HomeStack.Navigator>
+  );
+}
 
 export function MyTabs() {
   return (
@@ -16,8 +29,8 @@ export function MyTabs() {
         }}
       >
         <Tab.Screen
-          name="Exercise"
-          component={ExercisesScreen}
+          name="ExerciseStack"
+          component={ExercisesStackScreen}
           options={{
             // tabBarLabel: "Exercise",
             tabBarShowLabel: false,
