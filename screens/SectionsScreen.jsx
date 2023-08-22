@@ -1,6 +1,6 @@
 import { Text, View, SafeAreaView, StyleSheet, FlatList } from "react-native";
 import * as data from "../data/Data.json";
-import { Sections } from "../components/Sections";
+import { SectionsCard } from "../components/SectionsCard";
 
 export const SectionsScreen = () => {
   return (
@@ -11,7 +11,7 @@ export const SectionsScreen = () => {
         <Text>Exercise screen{data.mockData[0].name}</Text>
         <FlatList
           data={data.mockData}
-          renderItem={({ item }) => <Sections item={item} />}
+          renderItem={({ item }) => <SectionsCard item={item} />}
           keyExtractor={(item) => item.slug}
         />
       </View>

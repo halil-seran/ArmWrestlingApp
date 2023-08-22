@@ -14,8 +14,22 @@ const HomeStack = createNativeStackNavigator();
 function ExercisesStackScreen() {
   return (
     <HomeStack.Navigator>
-      <HomeStack.Screen name="Section" component={SectionsScreen} />
-      <HomeStack.Screen name="Exercise" component={ExercisesScreen} />
+      <HomeStack.Screen
+        options={{
+          tabBarShowLabel: false,
+          headerShown: false,
+        }}
+        name="Section"
+        component={SectionsScreen}
+      />
+      <HomeStack.Screen
+        options={{
+          tabBarShowLabel: false,
+          headerShown: false,
+        }}
+        name="Exercise"
+        component={ExercisesScreen}
+      />
     </HomeStack.Navigator>
   );
 }

@@ -1,5 +1,5 @@
 import { View, Text, Pressable } from "react-native";
-import { Cards } from "./Cards";
+import { Cards } from "./ExercisesCard";
 import { StyleSheet } from "react-native";
 import { Dimensions } from "react-native";
 import { useNavigation } from "@react-navigation/native";
@@ -7,12 +7,12 @@ import { useNavigation } from "@react-navigation/native";
 const windowWidth = Dimensions.get("window").width;
 const windowHeight = Dimensions.get("window").height;
 
-export const Sections = ({ item }) => {
+export const SectionsCard = ({ item }) => {
   const navigation = useNavigation();
   return (
     <Pressable
       style={styles.sectionContainer}
-      onPress={() => navigation.navigate("Exercise")}
+      onPress={() => navigation.navigate("Exercise", { item })}
     >
       <Text>{item.name}</Text>
     </Pressable>
@@ -20,7 +20,6 @@ export const Sections = ({ item }) => {
 };
 const styles = StyleSheet.create({
   sectionContainer: {
-    backgroundColor: "red",
     shadowColor: "black",
     shadowOpacity: 0.7,
     shadowOffset: { width: 1, height: 2 },

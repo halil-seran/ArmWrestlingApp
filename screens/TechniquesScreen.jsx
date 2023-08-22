@@ -1,19 +1,19 @@
-import { Text, View, SafeAreaView, StyleSheet } from "react-native";
+import { Text, View, SafeAreaView, StyleSheet, FlatList } from "react-native";
+import * as data from "../data/Data.json";
+import { TechniquesCard } from "../components/TechniquesCard";
 
 export const TechniquesScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.screen}>
-        <Text>Teknik screen</Text>
-        <Text>Teknik screen</Text>
-        <Text>Teknik screen</Text>
-        <Text>Teknik screen</Text>
-        <Text>Teknik screen</Text>
-        <Text>Teknik screen</Text>
-        <Text>Teknik screen</Text>
-        <Text>Teknik screen</Text>
-        <Text>Teknik screen</Text>
-        <Text>Teknik screen</Text>
+        <View style={{ marginTop: 30 }}></View>
+        {/* spacer koydum eger status bugi duzelmesse diye */}
+        <Text>Exercise screen{data.mockData[0].name}</Text>
+        <FlatList
+          data={data.techniques}
+          renderItem={({ item }) => <TechniquesCard item={item} />}
+          keyExtractor={(item) => item.slug}
+        />
       </View>
       <View style={styles.AdsArea}>
         <Text>This is ads area</Text>
@@ -29,11 +29,13 @@ const styles = StyleSheet.create({
     marginLeft: "5%",
     height: 70,
     borderRadius: 15,
-    marginBottom: 20,
+    marginBottom: 10,
+    marginTop: 10,
     alignItems: "center",
   },
   container: {
     flex: 1,
+    backgroundColor: "#eeeeee",
   },
   screen: { flex: 1 },
 });

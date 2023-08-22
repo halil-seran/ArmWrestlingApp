@@ -192,5 +192,34 @@
       "exercises": []
     }
   ],
-  "techniques": []
+  "techniques": [
+    {
+      "slug": "1",
+      "name": "hook",
+      "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
+      "image": "resmin urlsi",
+      "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
+    },
+    {
+      "slug": "2",
+      "name": "hammer",
+      "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
+      "image": "resmin urlsi",
+      "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
+    },
+    {
+      "slug": "3",
+      "name": "side presseure",
+      "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
+      "image": "resmin urlsi",
+      "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
+    },
+    {
+      "slug": "4",
+      "name": "toproll",
+      "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
+      "image": "resmin urlsi",
+      "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
+    },
+  ]
 }

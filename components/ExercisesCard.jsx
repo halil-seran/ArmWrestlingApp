@@ -19,7 +19,7 @@ import YoutubePlayer from "react-native-youtube-iframe";
 const windowWidth = Dimensions.get("window").width;
 const windowHeight = Dimensions.get("window").height;
 
-export const Cards = ({ item }) => {
+export const ExercisesCard = ({ item }) => {
   const [modalVisible, setModalVisible] = useState(false);
   const [playing, setPlaying] = useState(false);
 
@@ -90,16 +90,18 @@ export const Cards = ({ item }) => {
         </View>
         <View style={styles.textArea}>
           <View style={styles.textNameArea}>
-            <Text style={{ color: "white" }}>{item.name}</Text>
+            <Text style={{ color: "black", fontSize: 18, fontWeight: "700" }}>
+              {item.name}
+            </Text>
           </View>
           <View style={styles.textIconArea}>
             {item.type === "dumbell" ? (
-              <FontAwesome5 name="dumbbell" color="white" size={25} />
+              <FontAwesome5 name="dumbbell" color="black" size={25} />
             ) : null}
             {item.type === "barbell" ? (
               <Entypo
                 name="flow-line"
-                color="white"
+                color="black"
                 size={40}
                 style={{
                   transform: [{ rotate: "90deg" }],
@@ -119,17 +121,23 @@ const styles = StyleSheet.create({
     marginLeft: "2.5%",
     marginRight: "2.5%",
     height: windowWidth / 1.8,
-    backgroundColor: "#f95738",
+    backgroundColor: "#bbd0ff",
     marginBottom: 20,
     borderRadius: 15,
     // flexDirection: "row",
     flex: 1,
+    shadowColor: "black",
+    shadowOpacity: 0.7,
+    shadowOffset: { width: 1, height: 2 },
+    shadowRadius: 8,
+    elevation: 5,
+    borderRadius: 15,
   },
   imageArea: {
     width: windowWidth / 2.5,
     height: windowWidth / 2.5,
-    borderRadius: 5,
-    marginTop: 8,
+    borderRadius: 15,
+    marginTop: 10,
   },
   imageContainer: {
     alignItems: "center",
