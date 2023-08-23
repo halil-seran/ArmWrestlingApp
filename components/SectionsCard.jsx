@@ -1,8 +1,7 @@
 import { View, Text, Pressable } from "react-native";
-import { Cards } from "./ExercisesCard";
 import { StyleSheet } from "react-native";
-import { Dimensions } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import { Dimensions } from "react-native";
 
 const windowWidth = Dimensions.get("window").width;
 const windowHeight = Dimensions.get("window").height;
