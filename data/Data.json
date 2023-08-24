@@ -1,5 +1,91 @@
 {
-  "mockData": [
+  "sections": [
+    {
+      "name": "forearm",
+      "slug": "forearm",
+      "exercises": [
+        {
+          "slug": "Palms-Down-Dumbbell-Wrist",
+          "name": "Palms-Down Dumbbell Wrist",
+          "type": "dumbell",
+          "link": "PDHxebi2vDQ",
+          "image": "https://s3assets.skimble.com/assets/1252957/image_iphone.jpg",
+          "detail": "Her iki ele alınan dambıllar düz bir benchin kenanna oturularak avuç içleri yere bakacak şekil­de, bilekler benchin ucundan biraz dışanya doğru dayandınlarak sadece eller, bileklerden hareket ettir­mek ve nefes vermek suretiyle yukanya doğru kaldırılır ve tekrar nefes alınarak sadece bileklerin gücüy­le ve dirsekleri yerinden hiç kaldırmadan başlangıç seviyesine gelinceye kadar devam edilir. Bu esnada önkol hiç hareket ettirilmez, hareket sadece bilekler ile yapılır. Hareket bar ile de uygulanabilir.",
+        },
+        {
+          "slug": "Palms-Up-Dumbbell-Wrist",
+          "name": "Palms-Up Dumbbell Wrist",
+          "type": "dumbell",
+          "link": "3rsKOL8scsU",
+          "image": "https://s3assets.skimble.com/assets/1252941/image_iphone.jpg",
+          "detail": "Her iki ele alınan dambıllar düz bir benchin kenanna oturularak avuç içleri yukarı bakacak şekil­de, bilekler benchin ucundan biraz dışanya doğru dayandınlarak sadece eller, bileklerden hareket ettir­mek ve nefes vermek suretiyle yukanya doğru kaldırılır ve tekrar nefes alınarak sadece bileklerin gücüy­le ve dirsekleri yerinden hiç kaldırmadan başlangıç seviyesine gelinceye kadar devam edilir. Bu esnada önkol hiç hareket ettirilmez, hareket sadece bilekler ile yapılır. Hareket bar ile de uygulanabilir.",
+        },
+        {
+          "slug": "Palms-Down-Barbell-Wrist",
+          "name": "Palms-Down Barbell Wrist",
+          "type": "barbell",
+          "link": "SOdcDpS2dpo",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGgdzqml7XASvqaZqa3tuYTrJtFPxk4Z7F8-73sdKOw5cA1PRLq2GXqr5aHWIcjyId6CvQAc1UARqyMw7GqN_Vte7mPgB0aRf4ABGcCzDBu4tnsPpbKoRHlRuflsEY5y_D36ffwaC7lLkxz1F4RrKnc1GWSiJqtIQZ_Y65dOr5TN9Hi0LsTqR9t3sr/s1000/reverse-wrist-curl-1-1000x1000.jpg",
+          "detail": "Dizler yere koyularak omuz genişliğinden biraz daha dar bir aralıkla ve avuç içleri aşağı bakacak şe­kilde iki el ile kavranan Barbell, önkollar bench'in üzerinde dayalı olarak Bench'in kenarından aşağıya doğru sadece eller, bileklerden ve dayalı olduğu bench'in kenanndan nefes verilmek suretiyle aşağı­ya doğru bükülerek indirilir ve tekrar nefes alınarak sadece bileklerin gücüyle ve dirsekleri yerinden hiç kaldırmadan başlangıç seviyesine gelinceye kadar devam edilir. Bu hareket aynı konumda dumbbell'la da uygulanabilir",
+        },
+        {
+          "slug": "Palms-Up-Barbell-Wrist",
+          "name": "Palms-Up Barbell Wrist",
+          "type": "barbell",
+          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
+          "image": "https://idfa.ca/wp-content/uploads/2013/01/barbell-wrist-curls.jpg",
+          "detail": "Dizler yere koyularak omuz genişliğinden biraz daha dar bir aralıkla ve avuç içleri yukarı bakacak şe­kilde iki el ile kavranan Barbell, önkollar bench'in üzerinde dayalı olarak Bench'in kenarından aşağıya doğru sadece eller, bileklerden ve dayalı olduğu bench'in kenanndan nefes verilmek suretiyle aşağı­ya doğru bükülerek indirilir ve tekrar nefes alınarak sadece bileklerin gücüyle ve dirsekleri yerinden hiç kaldırmadan başlangıç seviyesine gelinceye kadar devam edilir. Bu hareket aynı konumda dumbbell'la da uygulanabilir",
+        },
+        {
+          "slug": "5",
+          "name": "curl oglu Curl",
+          "type": "barbell",
+          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
+          "image": "resmin urlsi",
+          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
+        },
+        {
+          "slug": "6",
+          "name": "curl oglu Curl",
+          "type": "barbell",
+          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
+          "image": "resmin urlsi",
+          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
+        },
+        {
+          "slug": "7",
+          "name": "dumbellCurl",
+          "type": "barbell",
+          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
+          "image": "resmin urlsi",
+          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
+        },
+        {
+          "slug": "8",
+          "name": "barbellCurl",
+          "type": "dumbell",
+          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
+          "image": "resmin urlsi",
+          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
+        },
+        {
+          "slug": "9",
+          "name": "curl oglu Curl",
+          "type": "barbell",
+          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
+          "image": "resmin urlsi",
+          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
+        },
+        {
+          "slug": "10",
+          "name": "curl oglu Curl",
+          "type": "barbell",
+          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
+          "image": "resmin urlsi",
+          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
+        }
+      ]
+    },
     {
       "name": "biceps",
       "slug": "biceps",
@@ -87,108 +173,32 @@
       ]
     },
     {
+      "name": "hand",
+      "slug": "hand",
+      "exercises": [
+        {
+          "slug": "10",
+          "name": "curl oglu Curl",
+          "type": "barbell",
+          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
+          "image": "resmin urlsi",
+          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
+        }
+      ]
+    },
+    {
       "name": "back",
       "slug": "back",
-      "exercises": [
-        {
-          "slug": "1",
-          "name": "hammerCurl",
-          "type": "dumbell",
-          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
-          "image": "resmin urlsi",
-          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
-        },
-        {
-          "slug": "2",
-          "name": "insideCurl",
-          "type": "dumbell",
-          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
-          "image": "resmin urlsi",
-          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
-        },
-        {
-          "slug": "3",
-          "name": "dumbellCurl",
-          "type": "barbell",
-          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
-          "image": "resmin urlsi",
-          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
-        },
-        {
-          "slug": "4",
-          "name": "barbellCurl",
-          "type": "dumbell",
-          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
-          "image": "resmin urlsi",
-          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
-        },
-        {
-          "slug": "5",
-          "name": "curl oglu Curl",
-          "type": "barbell",
-          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
-          "image": "resmin urlsi",
-          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
-        },
-        {
-          "slug": "6",
-          "name": "curl oglu Curl",
-          "type": "barbell",
-          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
-          "image": "resmin urlsi",
-          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
-        },
-        {
-          "slug": "7",
-          "name": "dumbellCurl",
-          "type": "barbell",
-          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
-          "image": "resmin urlsi",
-          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
-        },
-        {
-          "slug": "8",
-          "name": "barbellCurl",
-          "type": "dumbell",
-          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
-          "image": "resmin urlsi",
-          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
-        },
-        {
-          "slug": "9",
-          "name": "curl oglu Curl",
-          "type": "barbell",
-          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
-          "image": "resmin urlsi",
-          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
-        },
-        {
-          "slug": "10",
-          "name": "curl oglu Curl",
-          "type": "barbell",
-          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
-          "image": "resmin urlsi",
-          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
-        }
-      ]
+      "exercises": []
     },
     {
-      "name": "forearm",
-      "slug": "forearm",
-      "exercises": [
-        {
-          "slug": "10",
-          "name": "curl oglu Curl",
-          "type": "barbell",
-          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
-          "image": "resmin urlsi",
-          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
-        }
-      ]
+      "name": "triceps",
+      "slug": "triceps",
+      "exercises": []
     },
     {
-      "name": "strength",
-      "slug": "strength",
+      "name": "shoulder",
+      "slug": "shoulder",
       "exercises": []
     }
   ],

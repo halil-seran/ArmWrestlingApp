@@ -50,7 +50,7 @@ export const ExercisesCard = ({ item }) => {
               height={windowHeight / 4.5}
               width={windowWidth / 1.3}
               play={playing}
-              videoId={"iee2TATGMyI"}
+              videoId={item.link}
               onChangeState={onStateChange}
             />
             <ScrollView style={{ flex: 1 }}>
@@ -84,7 +84,7 @@ export const ExercisesCard = ({ item }) => {
           <Image
             style={styles.imageArea}
             source={{
-              uri: `${item.link}`,
+              uri: `${item.image}`,
             }}
           />
         </View>

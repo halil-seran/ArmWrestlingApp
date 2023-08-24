@@ -8,7 +8,7 @@ export const TechniquesScreen = () => {
       <View style={styles.screen}>
         <View style={{ marginTop: 30 }}></View>
         {/* spacer koydum eger status bugi duzelmesse diye */}
-        <Text>Exercise screen{data.mockData[0].name}</Text>
+        <Text>Exercise screen{data.sections[0].name}</Text>
         <FlatList
           data={data.techniques}
           renderItem={({ item }) => <TechniquesCard item={item} />}
