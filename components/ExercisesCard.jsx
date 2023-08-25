@@ -82,6 +82,7 @@ export const ExercisesCard = ({ item }) => {
       >
         <View style={styles.imageContainer}>
           <Image
+            resizeMode="cover"
             style={styles.imageArea}
             source={{
               uri: `${item.image}`,
@@ -90,7 +91,16 @@ export const ExercisesCard = ({ item }) => {
         </View>
         <View style={styles.textArea}>
           <View style={styles.textNameArea}>
-            <Text style={{ color: "black", fontSize: 18, fontWeight: "700" }}>
+            <Text
+              style={{
+                color: "black",
+                fontSize: 18,
+                fontWeight: "700",
+                textAlign: "center",
+                paddingLeft: 5,
+                paddingRight: 5,
+              }}
+            >
               {item.name}
             </Text>
           </View>
@@ -117,27 +127,27 @@ export const ExercisesCard = ({ item }) => {
 
 const styles = StyleSheet.create({
   cardContainer: {
-    width: "45%",
-    marginLeft: "2.5%",
-    marginRight: "2.5%",
+    width: "45.5%",
+    marginLeft: "3%",
+    // marginRight: "2.5%",
     height: windowWidth / 1.8,
     backgroundColor: "#bbd0ff",
-    marginBottom: 20,
+    marginBottom: 15,
     borderRadius: 15,
     // flexDirection: "row",
-    flex: 1,
     shadowColor: "black",
     shadowOpacity: 0.7,
     shadowOffset: { width: 1, height: 2 },
     shadowRadius: 8,
     elevation: 5,
-    borderRadius: 15,
+    borderRadius: 11,
   },
   imageArea: {
-    width: windowWidth / 2.5,
-    height: windowWidth / 2.5,
-    borderRadius: 15,
-    marginTop: 10,
+    // backgroundColor: "white",
+    width: windowWidth / 2.3,
+    height: windowWidth / 2.7,
+    borderRadius: 11,
+    marginTop: 5,
   },
   imageContainer: {
     alignItems: "center",
