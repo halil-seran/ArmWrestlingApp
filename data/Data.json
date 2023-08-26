@@ -77,12 +77,20 @@
           "detail": "Cable cross istasyonunda takılı olan bar, ayakta normal duruş pozisyonunda, iki el ile avuç içleri yere bakacak şekilde omuz genişliğinde tutulur. Dirsekler vücut yanında sabittir. Bu durumda istasyonun alt kısmına getirilmiş olan ağırlık, nefes verilerek omuz yönüne doğru, öne ve arkaya eğilmeden sadece  ön kollann gücü ile kaldınlır. Tekrar nefes alınarak kont­rollü ve yavaşça aşağıya indirilir.",
         },
         {
-          "slug": "10",
-          "name": "curl oglu Curl",
+          "slug": "Standing-Palms-Up-Barbell-Behind-The-Back-Wrist-Curl",
+          "name": "Standing Palms-Up Barbell Behind The Back Wrist Curl",
           "type": "barbell",
-          "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
-          "image": "resmin urlsi",
-          "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
+          "link": "aH_rZMugVFU",
+          "image": "https://pump-app.s3.eu-west-2.amazonaws.com/exercise-assets/01041101-Barbell-Standing-Back-Wrist-Curl_Forearms_small.jpg",
+          "detail": "Ayakta normal duruş pozisyonunda kalçaların üzerinde ve kollar düz olarak avuç içleri dışanya dö­nük ve eller arasında 50 santimlik bir tutuş açıklığı ile tutulan Barbell ile, bilekleri, hafifçe ve kontrollü ola­rak, mümkün olduğu kadar yukanya doğru büküp kaldırarak ve bu noktada önkol kaslannda tam bir gerginlik hissedip tekrar başlangıç durumuna dönü­lerek uygulanır. Dikkat edilecek husus; hareket süresince kolların düz olarak kalça arkasında tutularak, önkol kaslann­da gerginliği hissetmek, hareketi tümüyle yavaş ve kontrollü olarak uygulamaktır. Hareket aynı konum­da iki dumbbell ile de uygulanabilir.",
+        },
+        {
+          "slug": "Ulnar=Flexion-Exercise",
+          "name": "Ulnar Flexion Exercise",
+          "type": "dumbell",
+          "link": "CZpbBs7MHAM",
+          "image": "https://thepronator.com/wp-content/uploads/2023/04/forearm-7.png",
+          "detail": "Tek tarafında ağırlık plakaları olan Dumbell barı, ayakta normal duruş pozisyonunda tek el ile kalça arkasında tutulur. Ağırlık, kol ve dirsek sabit kalmak koşuluyla, elin bilekten arkaya doğru yükseltilerek ve yavaşça, bilek ve iç önkol kasları tam konsantrasyon halinde tekrar başlangıç noktasına indirilerek uygulanır.",
         }
       ]
     },
