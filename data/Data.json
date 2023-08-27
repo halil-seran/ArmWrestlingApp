@@ -1,7 +1,7 @@
 {
   "sections": [
     {
-      "name": "forearm",
+      "name": "Forearm",
       "slug": "forearm",
       "exercises": [
         {
@@ -61,14 +61,6 @@
           "detail": "Barbell, ayakta normal duruş pozisyonunda, iki el ile avuç içleri yere bakacak şekilde omuz genişliğin­de tutulur. Dirsekler vücut yanında sabittir. Bu du­rumda ağırlık, nefes verilerek omuz yönüne doğru, öne ve arkaya eğilmeden sadece ön kollann gücü ile kaldınlır. Tekrar nefes alınarak kontrollü ve yavaş­ça aşağıya indirilir. Dikkat edilecek husus, dirsekle­rin hareketin devamı süresince vücuda dayalı olma­sı ve Barbell'in kontrollü ve önkol kaslannda tam bir gerginlik oluncaya ve yere paralel durumu biraz ge­çene kadar kaldırılmasıdır.",
         },
         {
-          "slug": "Reverse-Barbell-Preacher-Curl",
-          "name": "Reverse Barbell Preacher Curl",
-          "type": "barbell",
-          "link": "cezjVm6x3x0",
-          "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/ez-bar-preacher-curl.gif",
-          "detail": "Kolların dirseklerden itibaren dayandırıldığı yakla­şık 45° eğimde olan bir platformda, barbell avuç iç­leri yere bakacak şekilde, omuz genişliği kadar bir açıklıkla kavranır. Koltukaltlan platformun kenanna ve kollar da döşemeye iyice intibak ettirilir. Bu du­rumda Barbell kontrollü, yavaşça ve kollar tama­men düzelinceye kadar nefes alınarak en aşağı po­zisyona kadar indirilir. Tekrar nefes verilerek omuz yönüne doğru, önkol ve biceps kaslannın tam kasıl­ma noktasına kadar kaldınlır ve devam edilir. Bu ha­reket önkollan ve biceps kaslannın alt uçlannı çalıştınr ve yükseklik kazandırır.",
-        },
-        {
           "slug": "Reverse-Cable-Curl",
           "name": "Reverse Cable Curl",
           "type": "cable",
@@ -91,11 +83,59 @@
           "link": "CZpbBs7MHAM",
           "image": "https://thepronator.com/wp-content/uploads/2023/04/forearm-7.png",
           "detail": "Tek tarafında ağırlık plakaları olan Dumbell barı, ayakta normal duruş pozisyonunda tek el ile kalça arkasında tutulur. Ağırlık, kol ve dirsek sabit kalmak koşuluyla, elin bilekten arkaya doğru yükseltilerek ve yavaşça, bilek ve iç önkol kasları tam konsantrasyon halinde tekrar başlangıç noktasına indirilerek uygulanır.",
+        },
+        {
+          "slug": "supination-pronation",
+          "name": "Supination Pronation",
+          "type": "dumbell",
+          "link": "Y-2-lnALVZE",
+          "image": "https://media.hep2go.com/ex_images/022001-023000/800/image_022531.jpg?rnd=1436041535",
+          "detail": "Tek tarafında ağırlık plakaları olan Dumbbell barı, dirsek bir bench'in üzerine tespit edilmek suretiyle sıkıca kavranır. Bilek bench'in kenannda ve el dışarıdadır. Bu durumda ağırlığın, kol ve dirsek sabit kal­mak koşuluyla, bileğin her iki tarafa ve yavaşça ha­reket ettirilmesi ile uygulanır.",
+        },
+        {
+          "slug": "Ulnar=Flexion-Exercise",
+          "name": "Ulnar Flexion Exercise",
+          "type": "dumbell",
+          "link": "CZpbBs7MHAM",
+          "image": "https://thepronator.com/wp-content/uploads/2023/04/forearm-7.png",
+          "detail": "Tek tarafında ağırlık plakaları olan Dumbell barı, ayakta normal duruş pozisyonunda tek el ile kalça arkasında tutulur. Ağırlık, kol ve dirsek sabit kalmak koşuluyla, elin bilekten arkaya doğru yükseltilerek ve yavaşça, bilek ve iç önkol kasları tam konsantrasyon halinde tekrar başlangıç noktasına indirilerek uygulanır.",
+        },
+        {
+          "slug": "Ulnar=Flexion-Exercise",
+          "name": "Ulnar Flexion Exercise",
+          "type": "dumbell",
+          "link": "CZpbBs7MHAM",
+          "image": "https://thepronator.com/wp-content/uploads/2023/04/forearm-7.png",
+          "detail": "Tek tarafında ağırlık plakaları olan Dumbell barı, ayakta normal duruş pozisyonunda tek el ile kalça arkasında tutulur. Ağırlık, kol ve dirsek sabit kalmak koşuluyla, elin bilekten arkaya doğru yükseltilerek ve yavaşça, bilek ve iç önkol kasları tam konsantrasyon halinde tekrar başlangıç noktasına indirilerek uygulanır.",
+        },
+        {
+          "slug": "Ulnar=Flexion-Exercise",
+          "name": "Ulnar Flexion Exercise",
+          "type": "dumbell",
+          "link": "CZpbBs7MHAM",
+          "image": "https://thepronator.com/wp-content/uploads/2023/04/forearm-7.png",
+          "detail": "Tek tarafında ağırlık plakaları olan Dumbell barı, ayakta normal duruş pozisyonunda tek el ile kalça arkasında tutulur. Ağırlık, kol ve dirsek sabit kalmak koşuluyla, elin bilekten arkaya doğru yükseltilerek ve yavaşça, bilek ve iç önkol kasları tam konsantrasyon halinde tekrar başlangıç noktasına indirilerek uygulanır.",
+        },
+        {
+          "slug": "Ulnar=Flexion-Exercise",
+          "name": "Ulnar Flexion Exercise",
+          "type": "dumbell",
+          "link": "CZpbBs7MHAM",
+          "image": "https://thepronator.com/wp-content/uploads/2023/04/forearm-7.png",
+          "detail": "Tek tarafında ağırlık plakaları olan Dumbell barı, ayakta normal duruş pozisyonunda tek el ile kalça arkasında tutulur. Ağırlık, kol ve dirsek sabit kalmak koşuluyla, elin bilekten arkaya doğru yükseltilerek ve yavaşça, bilek ve iç önkol kasları tam konsantrasyon halinde tekrar başlangıç noktasına indirilerek uygulanır.",
+        },
+        {
+          "slug": "Wrist-Roller",
+          "name": "Wrist Roller",
+          "type": "barbell",
+          "link": "-lOFG0U_rlY",
+          "image": "https://s3assets.skimble.com/assets/390791/image_iphone.jpg",
+          "detail": "Ortasından ip sarılmış ve ucunda ağırlık olan ba­sit bir cihazla uygulanır. Ayakta normal duruşpozis­yonunda, kollar yere paralel ve dirsekler tamamen düz olarak iki elle kısa barın her iki ucundan tutulur. Bu durumda kollann yere paralelliği hiç bozulma­dan, bar ellerin arasında döndürülerek ipin bara ta­mamen sarılması ve ağırlığın yukanya çıkaniması sağlanır. Yukarıya çıkan ağırlık, yine barın bu defa ters tarafa döndürülmesiyle aşağıya yavaş ve kont­rollü olarak indirilir ve hareket önkol kaslannda tam bir yanma hissedilinceye kadar tekrar edilir. Dikkat edilmesi gereken husus; hareketin devamı sırasında kollann hep gergin ve yere paralel durumda  kalma­sıdır.",
         }
       ]
     },
     {
-      "name": "biceps",
+      "name": "Biceps",
       "slug": "biceps",
       "exercises": [
         {
@@ -181,7 +221,7 @@
       ]
     },
     {
-      "name": "hand",
+      "name": "Hand",
       "slug": "hand",
       "exercises": [
         {
@@ -195,17 +235,17 @@
       ]
     },
     {
-      "name": "back",
+      "name": "Back",
       "slug": "back",
       "exercises": []
     },
     {
-      "name": "triceps",
+      "name": "Triceps",
       "slug": "triceps",
       "exercises": []
     },
     {
-      "name": "shoulder",
+      "name": "Shoulder",
       "slug": "shoulder",
       "exercises": []
     }
@@ -241,3 +281,12 @@
     },
   ]
 }
+
+// {
+//   "slug": "Reverse-Barbell-Preacher-Curl",
+//   "name": "Reverse Barbell Preacher Curl",
+//   "type": "barbell",
+//   "link": "cezjVm6x3x0",
+//   "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/ez-bar-preacher-curl.gif",
+//   "detail": "Kolların dirseklerden itibaren dayandırıldığı yakla­şık 45° eğimde olan bir platformda, barbell avuç iç­leri yere bakacak şekilde, omuz genişliği kadar bir açıklıkla kavranır. Koltukaltlan platformun kenanna ve kollar da döşemeye iyice intibak ettirilir. Bu du­rumda Barbell kontrollü, yavaşça ve kollar tama­men düzelinceye kadar nefes alınarak en aşağı po­zisyona kadar indirilir. Tekrar nefes verilerek omuz yönüne doğru, önkol ve biceps kaslannın tam kasıl­ma noktasına kadar kaldınlır ve devam edilir. Bu ha­reket önkollan ve biceps kaslannın alt uçlannı çalıştınr ve yükseklik kazandırır.",
+// },
