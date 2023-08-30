@@ -188,7 +188,7 @@
           "image": "https://cdn-cccio.nitrocdn.com/sQAAylIpwgMYZgBLSXcMgCkUIbfIzHvb/assets/images/optimized/rev-cfa25b3/www.aleanlife.com/wp-content/uploads/2022/04/reverse-cable-curl.jpg",
           "detail": "Kablo istasyonunun önünde durun ve ağırlıklara bağlı tutamaçları avuç içleri yukarı bacak şekilde kavrayın, kollarınız aşağı sarkık şekilde dursun. Ayaklarınızı omuz genişliğinde açın ve dizleri hafifçe bükün.
           Ardından nefes alın ve nefes vererek tutamaçları çenenize yakın bir şekilde yukarı doğru kaldırın. Bu noktada bir iki saniye bekledikten sonra kontrollü bir şekilde kollarınızı aşağı doğru bırakın ve başlangıç pozisyonuna geri dönün.",
-        },
+        }
       ]
     },
     {
@@ -214,7 +214,7 @@
           El yayını baş aşağı şekilde tutup bir tarafını baş parmağınızın altındaki kısma, diğer tarafını ise yüzük ve serçe parmağınıza yerleştirerek kullanabilirsiniz.
           El yayının bir tarafını baş parmağınızla, diğer tarafını da işaret ve orta parmaklarınızla tutarak baş parmağınızı itip çekebilirsiniz.
           El yayını yan şekilde tutup sadece baş ve işaret parmaklarınızı veya baş ve orta parmaklarınızı kullanabilirsiniz.",
-        },
+        }
       ]
     },
     {
@@ -222,36 +222,52 @@
       "slug": "back",
       "exercises": [
         {
-          "slug": "",
-          "name": "",
-          "type": "",
-          "link": "",
-          "image": "",
-          "detail": "",
+          "slug": "Neutral-Grip-Pull-Up",
+          "name": "Neutral Grip Pull-Up",
+          "type": "?",
+          "link": "cd_38C6LuvY",
+          "image": "https://www.inspireusafoundation.org/wp-content/uploads/2023/03/neutral-grip-pull-ups-shoulder-width.gif",
+          "detail": "Bu hareket için birden fazla bara ihtiyacınız olacaktır. Neutral grip pull up hareketinde kollarınızı omuz genişliğinde açın ve avuç içleriniz birbirine bakacak şekilde bara tutunun. Bu hareket genellikle ileri seviye sporcular tarafından tercih edilmektedir. Diğer barfiks çeşitlerine göre daha zordur.",
         },
         {
-          "slug": "",
-          "name": "",
-          "type": "",
-          "link": "",
-          "image": "",
-          "detail": "",
+          "slug": "Wide-Grip-Lat-Pulldown",
+          "name": "Wide Grip Lat Pulldown",
+          "type": "?",
+          "link": "shm-jVvsvCw",
+          "image": "https://anabolicaliens.com/cdn/shop/articles/5f19b4eff633a10684ef6193_wide-grip-lat-pulldown-anabolic-aliens_500x.png?v=1644918521",
+          "detail": "Sırtınız dik bir şekilde durun. Ellerinizi omuz hizasından biraz daha geniş olacak şekilde wide grip barına yerleştirin. Avuç içlerinizi karşıya bakacak şekilde barı kavrayarak iyice sıkın. Şimdi sehpaya oturun.
+          Otururken bacaklarınızı dizliklerin altına doru sokun. Dizlikler ile can arasında boşluk kalmamalıdır. Dizlik ile bacak tam yerleştiğinde hareket sırasında bacaklarınız sabit kalacaktır.
+          Ağırlığı vücudunuza çektiniz de, üst vücudunuz kesinlikle pozisyonunu bozmamalıdır. Her daim yere dik olacak şekilde kalmalıdır. Yani ağırlığı çekiş ile saldığınız anda vücudunuzu yatıp kaldırma gibi kolaylaştırıcı hilelerde bulunmayın. Bu kaslarınız için zararlıdır.",
         },
         {
-          "slug": "",
-          "name": "",
-          "type": "",
-          "link": "",
-          "image": "",
-          "detail": "",
+          "slug": "Lat-Drag-Static-Hold",
+          "name": "Lat Drag Static Hold",
+          "type": "?",
+          "link": "VKfKLxKXyYc",
+          "image": "https://static.strengthlevel.com/images/illustrations/one-arm-seated-cable-row-1000x1000.jpg",
+          "detail": "Ayakta veya oturarak, cable yada makine kullanarak bu hareketi yapabilirsiniz. Tutuş nötral olmalı. Bilek biraz içeri doğru bükülebilir. Ağırlığı kendimize çektikten sonra dayanabildiğimiz kadar bekliyoruz. Sonra negatife dikkat ederek yavaşca ağırlığı geri bırakıyoruz.",
         },
         {
-          "slug": "",
-          "name": "",
-          "type": "",
-          "link": "",
-          "image": "",
-          "detail": "",
+          "slug": "Barbell Row",
+          "name": "Barbell-Row",
+          "type": "barbell",
+          "link": "77hEhK7TCig",
+          "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/08/barbell-bent-over-row.gif",
+          "detail": "Ayaklarınızı bir omuz genişliği açıp parmak uçlarınızın tam karşıya baktığından emin olun. Dizlerinizi hafifçe kırın ve kalçayı biraz dışarı itin. Sırtınız yere yaklaşık  40-45 derece açıyla durmalı.
+          Şimdi uygun ağırlığı taktığınız barbell’i üstten tutuşla kavrayın. Elleriniz omuz genişliğiniz kadar açık olmalı. Avuç içlerinizin biri içeri, biri dışarı bakması ağırlığı daha iyi kavramanızı sağlayacaktır.
+          Nefes alın ve ardından nefes vererek  kontrollü bir şekilde barbell’i karnınıza kadar çekin. 0,
+          5 saniye kadar bekledikten sonra  nefes alarak kaldırış hızınıza göre daha yavaş bir hızda aşağı doğru salın.",
+        },
+        {
+          "slug": "Seated-Cable-Row",
+          "name": "Seated Cable Row",
+          "type": "?",
+          "link": "IzoCF_b3cIY",
+          "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Seated-Cable-Row.gif",
+          "detail": "Kablo ağırlık makinasına bakacak şekilde oturun ve ayaklarınızı ayak desteklerine yerleştirin.
+          Wide Grip (Uzun bar çubuğu) (V bar ya da diğer aparatlar ile de yapılabilir.) omuz genişliğinden daha geniş bir şekilde kavrayın ve dizleriniz neredeyse düz olana kadar tabanınızı geriye doğru kaydırın. Gövde sabit şekilde öne doğru eğilmeli ve kollarınız tamamen uzatılmalıdır.
+          Yavaşça geriye doğru çekilirken nefes verin, sırtınızı düzeltin ve çubuğu karnınıza çekin. 
+          Yavaşça öne doğru eğilirken Nefes alın ve kolları tamamen uzatılmış ve beliniz öne doğru bükülmüş olarak demir çubuğu başlangıç ​​pozisyonuna geri getirin.",
         },
       ]
     },
@@ -260,12 +276,62 @@
       "slug": "triceps",
       "exercises": [
         {
-          "slug": "",
-          "name": "",
-          "type": "",
-          "link": "",
-          "image": "",
-          "detail": "",
+          "slug": "dips",
+          "name": "dips",
+          "type": "?",
+          "link": "2UzEtnxnpc4",
+          "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Triceps-Dips.gif",
+          "detail": "Triceps Dips hareketi: vücut ağırlığımızı kullanarak triceps (arka kol) kaslarımızı geliştirmemizi sağlayan oldukça zor ama mükemmel derece de etkili bir arka kol egzersizidir.Triceps sehpahasının paralel barlara sıkıca tutunun. Hareketi konsantre halde yapmak istiyorsanız dirseklerinizi vücudunuza paralel halde tutmalısınız.
+          Nefes alın ve ardından nefes vererek kuvvetlice kendinizi yukarı doğru itin. Mümkün mertebe vücudunuz yere dik olmalı. Öne doğru bir açı yaratırsanız arka kol dan daha çok  alt göğüs kaslarınız çalışacaktır.
+          Dengenizi koruyabilmek için resimdeki gibi ayaklarınızı birbirine dolayabilirsiniz. Bu şekilde vücudunuz serbest halindeki kadar sallanmayacaktır.
+          En üst seviyeye kadar kendinizi yükselttikten sonra,  nefes alarak orta hızda kendinizi aşağı salın. Ardından tekrar nefes verin ve vücudunuzu kollarınızı kullanarak yukarı itin. Tepe noktalarda dirseklerinizi kilitlemeyin. Kitlerseniz tüm yük arka kol kasında değil dirsek ekleminde olacaktır. Sakatlanabilirsiniz.",
+        },
+        {
+          "slug": "Barbell-French-Press",
+          "name": "Barbell French Press",
+          "type": "barbell",
+          "link": "wfFuClSLcME",
+          "image": "https://modusx.de/wp-content/uploads/2021/07/french-press-sz.gif",
+          "detail": "Yerde uzanarak ya da antrenman sehpasına yatarak en uygun pozisyon alınmalıdır.
+          Temel hedef, dumbbell ya da Z barı alın hizasına doğru yavaşça indirmektir. Hareketin acele bir şekilde yapılması kesinlikle tavsiye edilmez.
+          Eğer dumbbell kullanılıyorsa avuç içleri birbirine bakacak şekilde; Z bar kullanılıyorsa avuç içleri karşıya bakacak şekilde ağırlık kavranmalıdır. Normal – düz bar ile bu hareketin yapılması önerilmez. Çünkü bu hareketin kasılma evresinde düz barın yeteri kadar kavranabilmesi zor olacaktır.
+          Bar doğru bir şekilde tutulduktan sonra, dirsekler kırılarak ağırlık kaş ve kulak arasında kalan bölgeye doğru indirilmelidir.
+          Kaslar gerildiği sırada dirsekler yanlara doğru açılmamalı ve daima karşı tarafı göstermelidir.
+          Dumbbell ya da barı hedef noktaya ulaştırdıktan sonra birkaç saniye beklenmeli ve kasların zorlanması sağlanmalıdır.
+          Ağırlık tekrar kaldırılırken nefes vermek unutulmamalıdır.",
+        },
+        {
+          "slug": "Triceps-Push-Down",
+          "name": "Triceps Push Down",
+          "type": "?",
+          "link": "YsirG0x9Pf4",
+          "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Pushdown.gif",
+          "detail": "Üst kol bölgesinin vücuda mümkün olduğunca bitişik olmasına ve ön kolun yere paralel ya da biraz yukarda durmasına dikkat edin.
+          Ayaklarınızı omuz hizasında açabilirsiniz. Ayak tabanlarının yere tam bastığından emin olun. Sırtınız düz olmalı ve göğsünüzü biraz ileriye alabilirsiniz. Bir diğer duruş pozisyonu için ise ayağınızın birini ileriye alabilir, tüm vücut yükünü bu ayağa verebilirsiniz. Diğer ayağınız arkada, topuk kısmı kalkık ve parmak ucu yere basık şekilde kalabilir. Bu pozisyonda sırtınızı biraz eğebilir ve göğsünüzü ileriye taşıyabilirsiniz.
+          Nefes alın ve nefesinizi verirken ön kolu, yere doğru indirin. En son noktaya geldiğinizde tekrar nefes alın ve tekrar yukarı başlangıç pozisyonuna dönün.",
+        },
+        {
+          "slug": "Overhead-Triceps-Extension",
+          "name": "Overhead Triceps Extension",
+          "type": "?",
+          "link": "nRiJVZDpdL0",
+          "image": "https://static.strengthlevel.com/images/illustrations/seated-dumbbell-tricep-extension-1000x1000.jpg",
+          "detail": "Bench sehpası üzerine oturun ve sırtınızın dik olasına dikkat edin. Dengenizi tam anlamıyla sağlamak için ayaklarınızı sehpanın kenarlarına yere yerleştirebilirsiniz.
+          Kas gücünüzle doğru orantılı bir dumbell alın ve iki elinizle dummbell’ın bir ucundan ya da orta noktasından sıkıca kavrayın. Ardından dummbell’ı başınızın arkasına alın. Ayak tabanlarının yere tam basmasını sağlayın.
+          Nefes alın ve nefes vererek dumbell’ı yukarı doğru kaldırın. Tepe noktasına ulaştığınızda beklemeden kontrollü bir şekilde başlangıç pozisyonuna dummbell’ı indirin.",
+        },
+        {
+          "slug": "Rope-Push-Down",
+          "name": "Rope Push Down",
+          "type": "?",
+          "link": "-xa-6cQaZKY",
+          "image": "https://static.strengthlevel.com/images/illustrations/tricep-rope-pushdown-1000x1000.jpg",
+          "detail": "Triceps istasyonu ya da cable cross makinesine halatı takın. Makara gruplarını en üste çekin (cable da yapacaksanız)
+          Orta bir ağırlık seçin. Vücudunuzu düz tutun. Üst resimdeki kadar mesafede makineye yaklaşın. Eğer yüksek bir ağırlık girecekseniz belinizi korumak için bir adım öne atabilir, ya da dizlere biraz açı verip kalçayı biraz geri itebilirsiniz.
+          Hareket boyunca üst kollarınız (dirsek ve omuz arası) yere dik ve vücuda olabildiğince bitişik olacak.
+          Nefes alın ve ardından nefesinizi vererek ön kollarınızı (el ve dirsek arası) yere paralel halden, aşağı doğru yere dik olana kadar, ellerinize fleksiyon vererek halatı itin. (fleksiyon : eklem hareketi)
+          Ön kollar yere tam dik olunca bekleme yapmadan, nefes alarak ve itiş hızınıza göre daha yavaş bir hızda halatı yukarı doğru salın.
+          Ön kollarınız yere paralel hale gelince salışı kesin ve bekleme yapmadan nefes vererek tekrar itişe geçin.",
         },
       ]
     },
@@ -274,12 +340,67 @@
       "slug": "shoulder",
       "exercises": [
         {
-          "slug": "",
-          "name": "",
-          "type": "",
-          "link": "",
-          "image": "",
-          "detail": "",
+          "slug": "Arnold-Press",
+          "name": "Arnold Press",
+          "type": "dumbell",
+          "link": "hmnZKRpYaV8",
+          "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Arnold-Press.gif",
+          "detail": "Arkası ayarlanabilir bench sehpahasını dik konuma getirip, sırtınızı iyice yaslayarak oturun. Ayaklarınız açık ve karşıya bakar konumda olursa yüksek ağırlıklarda dengenizi sağlamanıza yardımcı olur.
+          Üstten tutuşla her iki elinize birer dumbbell alın. Üst kollarınız birbirine paralel, yere dik ve avuç içleriniz vücudunuza bakar şekilde olmalı. (A)
+          Nefes alın ve ardından nefes vererek, fleksiyon yaparak yani avuç içlerinizi dışarı doğru çevirerek (B), dumbbell’ları yukarı birbirlerine değmesine bir kaç santim mesafe kalana kadar kaldırın. (C)
+          Tepe noktasında 0,
+          5-1 saniye kadar bekledikten sonra, nefes alarak, kaldırış hızınıza oranla daha düşük bir hızda yine fleksiyon yaparak yani avuç içlerinizi vücudunuza çevirerek dumbell’ları aşağı indirip başlangıç pozisyonunuza gelin.",
+        },
+        {
+          "slug": "Military-Press",
+          "name": "Military Press",
+          "type": "barbell",
+          "link": "oGhnnoAfMaY",
+          "image": "https://fitnessprogramer.com/wp-content/uploads/2021/04/Barbell-Military-Press.gif",
+          "detail": "Ayaklarınızı bir omuz genişliği kadar açın. Uygun ağırlıkları taktığınız barbell’i omuz genişliğinizden yaklaşık bir karış kadar daha fazla ölçüde üstten tutuşla kavrayın. Barbell’i hızla yerden kesip köprücük kemiklerinizin üstüne alın ve dengenizi sağlayın. 
+          Eğer barbell’i yerden kaldırmada problem yaşıyorsanız serbest squat sehpasından da kolaylıkla alabilirsiniz.
+          Nefes alın ve ardından nefes vererek köprücük kemiğinize aldığınız barbell’i kuvvetlice yukarı doğru itin. Yine aynı şekilde tepe noktasına geldiğiniz de kol eklemlerinizi kitlemeyin.
+          Bir saniye kadar bekledikten sonra nefes alarak, kaldırış hızınıza göre daha yavaş bir hızla barbell’i aşağı doğru indirin.Köprücük kemiğinize dayamadan tekrar kuvvetlice yukarı doğru itin.",
+        },
+        {
+          "slug": "Dumbbell-Overhead-Press",
+          "name": "Dumbbell Overhead Press",
+          "type": "dumbell",
+          "link": "Did01dFR3Lk",
+          "image": "https://newlife.com.cy/wp-content/uploads/2019/02/22371301-Dumbbell-Seated-Shoulder-Press-female_Shoulders_360.gif",
+          "detail": "Ayarlanabilir bench bulamadığınız durumlarda. Belinizde her hangi bir sakatlık riski yoksa bu hareketi ayakta da uygulayabilirsiniz. Yüksek ağırlık girecekseniz bel kemeri takmanız da fayda olacaktır.
+          Ayaklarınızı omuz genişliğiniz kadar açıp, her iki elinize de birer dumbbell alıp kafa ve boyun arası hizaya kaldırın. Bu başlangıç pozisyonunuz olacak. 
+          Nefes alın ve ardından nefes vererek dumbbellar’ı kuvvetlice yukarı doğru itin. Dumbbellar’ın birbirine değmesine bir kaç cm kadar mesafe kalmalı. 
+          Tepe noktaya ulaştıktan sonra nefes alarak, kaldırış hızınıza oranlar daha yavaş bir hızla başlangıç pozisyonunuza doğru indirin. Bir saniye kadar bekleyip tekrar kaldırın.
+          Ayakta bu hareketi yaparken belinizi bükmeyin, eğer belinize çok yük biniyorsa bir ayağınızı geriye doğru atabilirsiniz.",
+        },
+        {
+          "slug": "Lateral-Raise",
+          "name": "Lateral Raise",
+          "type": "dumbell",
+          "link": "XPPfnSEATJA",
+          "image": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Lateral-Raise.gif",
+          "detail": "Her iki elinize uygun ağırlıkta birer dumbbell alın. 5  ya da 7.5 kg ile başlayabilirsiniz. Gözünüze hafif gelmiş olabilir. Fakat egzersiz sonunda gücünüz tamamen tükenecek ve mükemmel bir gelişim ve pump hissi duyacaksınız. Bunun garantisini veriyorum.
+          Ayaklarınızı omuz genişliğiniz kadar açın. Belinize ya da kalçanıza bir es vermenize gerek yok. Tamamen dik olarak durun. Kollarınız  lateral raise egzersizi boyunca vücudunuza paralel şekilde hareket edecek.
+          Şimdi nefes alın ve ardından nefes vererek  1,
+          5 saniye aralığında kollarınızı omuz seviyenize kadar kaldırmaya başlayın. Dumbbell’lar yere paralel olarak hareket etmeli. Öne ya da arkaya herhangi bir eğim vermeyin.
+          Omuz hizasına yani tepe noktaya geldiğinizde 0,
+          5 – 1 saniye kadar bekleyin ve ardından nefes alarak 2 saniye aralığında kolları aşağı indirmeye başlayın. İndirme ne kadar yavaş olursa ağırlığa karşı direnç o kadar fazla olur ve indirme anında da kas gelişimi devam eder.
+          Dip noktaya geldiğinizde bekleme yapmadan nefes vererek tekrar kaldırmaya başlayın.",
+        },
+        {
+          "slug": "Face-Pull",
+          "name": "Face Pull",
+          "type": "?",
+          "link": "1NSnmDZj_yI",
+          "image": "https://static.strengthlevel.com/images/illustrations/face-pull-1000x1000.jpg",
+          "detail": "Cablecross makinesine halatı takın. Makara gruplarını en yukarı kaldırın. Çekişi yukarıdan yüzünüze doğru yapacaksınız. O yüzden egzersizin ismi Face pull.
+          Avuç içleriniz içe bakacak şekilde halatı kavrayın. Makineden bir kaç adım uzaklaşın. Şimdi yapacağınız iki duruş şekli var. Bir tanesi ayaklar yan yana duruş, diğeri de bir ayak önde duruş şekli.
+          Her iki duruşunda kendine has özellikleri var. Bir ayak önde duruş hareketi daha kolay yapmanızı sağlarken arka omuza konsantre olmayı zorlaştırabiliyor.
+          Ayaklar yana yana duruşta ise çekiş hareketini yapabilmek için vücudunuza geriye doğru bir açı vermeniz gerekiyor. Açıyı öyle bir ayarlamalısınız ki  vücut ağırlığınız kaldıracağınız kilodan çalmamış olsun. Her iki duruş şeklini de uygulayıp kendiniz karar verin.
+          Duruş şeklinizi ayarladıktan sonra. Nefes alın ve ardından nefes vererek  karşıya doğru uzattığınız halatı  yüzünüze doğru çekmeye başlayın.
+          Alnınıza doğru, yüzünüze doğru çekebilirsiniz. Milimetrik ayarlama yapmaya gerek yok. Sonuçta arka omuz kası sayesinde halatı yüzünüze doğru çekebiliyorsunuz.
+          Son noktaya geldiğinizde  bir saniye kadar bekleyin ve çekiş hızınıza oranla daha yavaş bir hızda  nefes alarak halatı salmaya başlayın.",
         },
       ]
     }
@@ -312,22 +433,6 @@
       "link": "https://cdn.shopify.com/s/files/1/1876/4703/files/shutterstock_419477203_480x480.jpg?v=1636560233",
       "image": "resmin urlsi",
       "detail": "Hammer curl hareketi yapmak kişinin kol kaslarının gelişmesini ve sıkılaşmasını sağlamaktadır. Hareketin birkaç farklı varyasyonu bulunmaktadır. Oturarak yapılan versiyonu, ellerin aynı anda kaldırıldığı versiyonu vardır ve bu versiyonları yaparken de aynı temel mantık kullanılmaktadır. Hammer curl hareketi yapmak için takip edilmesi gereken adımlar şu şekildedir:",
-    },
+    }
   ]
 }
-// {
-//   "slug": "Reverse-Barbell-Preacher-Curl",
-//   "name": "Reverse Barbell Preacher Curl",
-//   "type": "barbell",
-//   "link": "cezjVm6x3x0",
-//   "image": "https://www.inspireusafoundation.org/wp-content/uploads/2022/03/ez-bar-preacher-curl.gif",
-//   "detail": "Kolların dirseklerden itibaren dayandırıldığı yakla­şık 45° eğimde olan bir platformda, barbell avuç iç­leri yere bakacak şekilde, omuz genişliği kadar bir açıklıkla kavranır. Koltukaltlan platformun kenanna ve kollar da döşemeye iyice intibak ettirilir. Bu du­rumda Barbell kontrollü, yavaşça ve kollar tama­men düzelinceye kadar nefes alınarak en aşağı po­zisyona kadar indirilir. Tekrar nefes verilerek omuz yönüne doğru, önkol ve biceps kaslannın tam kasıl­ma noktasına kadar kaldınlır ve devam edilir. Bu ha­reket önkollan ve biceps kaslannın alt uçlannı çalıştınr ve yükseklik kazandırır.",
-// },
-// {
-//   "slug": "",
-//   "name": "",
-//   "type": "",
-//   "link": "",
-//   "image": "",
-//   "detail": "",
-// },
