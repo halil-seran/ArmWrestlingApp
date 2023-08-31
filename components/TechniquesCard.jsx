@@ -44,7 +44,7 @@ export const TechniquesCard = ({ item }) => {
               height={windowHeight / 4.5}
               width={windowWidth / 1.3}
               play={playing}
-              videoId={"iee2TATGMyI"}
+              videoId={item.link}
               onChangeState={onStateChange}
             />
             <ScrollView style={{ flex: 1 }}>
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
     width: "90%",
     marginLeft: "5%",
     height: windowWidth / 2.2,
-    marginBottom: 20,
+    marginTop: 20,
   },
   centeredView: {
     flex: 1,

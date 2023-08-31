@@ -22,7 +22,6 @@ export const SectionsScreen = () => {
           <View style={styles.screen}>
             <View style={{ marginTop: 30 }}></View>
             {/* spacer koydum eger status bugi duzelmesse diye */}
-            <Text>Exercise screen{data.sections[0].name}</Text>
             <FlatList
               data={data.sections}
               renderItem={({ item }) => <SectionsCard item={item} />}

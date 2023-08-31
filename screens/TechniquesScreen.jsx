@@ -11,7 +11,7 @@ import { TechniquesCard } from "../components/TechniquesCard";
 import { useState } from "react";
 
 export const TechniquesScreen = () => {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   return (
     <SafeAreaView style={styles.container}>
       {loading ? (
@@ -21,7 +21,6 @@ export const TechniquesScreen = () => {
           <View style={styles.screen}>
             <View style={{ marginTop: 30 }}></View>
             {/* spacer koydum eger status bugi duzelmesse diye */}
-            <Text>Exercise screen{data.sections[0].name}</Text>
             <FlatList
               data={data.techniques}
               renderItem={({ item }) => <TechniquesCard item={item} />}
