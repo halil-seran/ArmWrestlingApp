@@ -9,9 +9,36 @@ import {
 import * as data from "../data/Data.json";
 import { SectionsCard } from "../components/SectionsCard";
 import { useState } from "react";
+import {
+  BannerAd,
+  BannerAdSize,
+  TestIds,
+  InterstitialAd,
+  AdEventType,
+  RewardedInterstitialAd,
+  RewardedAdEventType,
+} from "react-native-google-mobile-ads";
+import { Dimensions } from "react-native";
+
+const windowWidth = Dimensions.get("window").width;
+const windowHeight = Dimensions.get("window").height;
 
 export const SectionsScreen = () => {
   const [loading, setLoading] = useState(false);
+
+  const adUnitId = __DEV__
+    ? TestIds.BANNER
+    : "";
+
+  // const appOpenAd = AppOpenAd.createForAdRequest(adUnitId, {
+  //   requestNonPersonalizedAdsOnly: true,
+  //   keywords: ["fashion", "clothing"],
+  // });
+
+  // appOpenAd.load();
+
+  // appOpenAd.show();
+  const newSize = `${Math.round(windowWidth)}x${Math.round(windowWidth / 3.2)}`;
 
   return (
     <SafeAreaView style={styles.container}>
@@ -29,7 +56,13 @@ export const SectionsScreen = () => {
             />
           </View>
           <View style={styles.AdsArea}>
-            <Text>This is ads area</Text>
+            <BannerAd
+              unitId={adUnitId}
+              size={newSize}
+              requestOptions={{
+                requestNonPersonalizedAdsOnly: true,
+              }}
+            />
           </View>
         </>
       )}
@@ -40,11 +73,10 @@ export const SectionsScreen = () => {
 const styles = StyleSheet.create({
   AdsArea: {
     backgroundColor: "#F5B700",
-    width: "90%",
-    marginLeft: "5%",
-    height: 70,
-    borderRadius: 15,
-    marginBottom: 10,
+    width: "100%",
+
+    height: windowWidth / 3.2,
+
     marginTop: 10,
     alignItems: "center",
   },
