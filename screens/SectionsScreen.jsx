@@ -1,5 +1,4 @@
 import {
-  Text,
   View,
   SafeAreaView,
   StyleSheet,
@@ -8,37 +7,62 @@ import {
 } from "react-native";
 import * as data from "../data/Data.json";
 import { SectionsCard } from "../components/SectionsCard";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   BannerAd,
-  BannerAdSize,
   TestIds,
   InterstitialAd,
   AdEventType,
-  RewardedInterstitialAd,
-  RewardedAdEventType,
 } from "react-native-google-mobile-ads";
 import { Dimensions } from "react-native";
 
 const windowWidth = Dimensions.get("window").width;
-const windowHeight = Dimensions.get("window").height;
+
+const adUnitId = __DEV__
+  ? TestIds.BANNER
+  : "ca-app-pub-8713168739861819~9392609672";
+
+const adUnitId2 = __DEV__
+  ? TestIds.INTERSTITIAL
+  : "ca-app-pub-8713168739861819~9392609672";
+
+const newSize = `${Math.round(windowWidth)}x${Math.round(windowWidth / 3.2)}`;
+
+const interstitial = InterstitialAd.createForAdRequest(adUnitId2, {
+  requestNonPersonalizedAdsOnly: true,
+  keywords: ["fashion", "clothing"],
+});
 
 export const SectionsScreen = () => {
   const [loading, setLoading] = useState(false);
+  //bu aktiviy indicator icin
+  const [loaded, setLoaded] = useState(false);
+  const [timeRemaining, setTimeRemaining] = useState(10);
 
-  const adUnitId = __DEV__
-    ? TestIds.BANNER
-    : "";
+  useEffect(() => {
+    console.log("delete + set time remain to 60 "+timeRemaining);
+    setTimeout(() => {
+      timeRemaining > 0 && setTimeRemaining((time) => time - 1);
+    }, 1000);
+    if (timeRemaining < 1) {
+      interstitial.show();
+    }
+  }, [timeRemaining]);
 
-  // const appOpenAd = AppOpenAd.createForAdRequest(adUnitId, {
-  //   requestNonPersonalizedAdsOnly: true,
-  //   keywords: ["fashion", "clothing"],
-  // });
+  useEffect(() => {
+    const unsubscribe = interstitial.addAdEventListener(
+      AdEventType.LOADED,
+      () => {
+        setLoaded(true);
+      }
+    );
+    interstitial.load();
+    return unsubscribe;
+  }, []);
 
-  // appOpenAd.load();
-
-  // appOpenAd.show();
-  const newSize = `${Math.round(windowWidth)}x${Math.round(windowWidth / 3.2)}`;
+  if (!loaded) {
+    return null;
+  }
 
   return (
     <SafeAreaView style={styles.container}>
@@ -74,9 +98,7 @@ const styles = StyleSheet.create({
   AdsArea: {
     backgroundColor: "#F5B700",
     width: "100%",
-
     height: windowWidth / 3.2,
-
     marginTop: 10,
     alignItems: "center",
   },
