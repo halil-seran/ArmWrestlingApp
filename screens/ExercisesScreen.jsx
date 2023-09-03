@@ -1,4 +1,4 @@
-import { View, Text, Button, FlatList } from "react-native";
+import { View, FlatList } from "react-native";
 import { useRoute } from "@react-navigation/native";
 import { ExercisesCard } from "../components/ExercisesCard";
 
@@ -16,8 +16,6 @@ export const ExercisesScreen = ({ navigation }) => {
         keyExtractor={(item) => item.slug}
         numColumns={2}
       />
-
-      {/* <Button title="gonder" onPress={() => navigation.navigate("Section")} /> */}
     </View>
   );
 };
