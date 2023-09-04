@@ -5,7 +5,6 @@ import { ExercisesCard } from "../components/ExercisesCard";
 export const ExercisesScreen = ({ navigation }) => {
   const route = useRoute();
   const data = route.params?.item;
-  // burdan direk flatlist e data olarak gonder itemi
   return (
     <View>
       <View style={{ marginTop: 30 }}></View>
