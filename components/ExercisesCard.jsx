@@ -26,7 +26,6 @@ export const ExercisesCard = ({ item }) => {
   const onStateChange = useCallback((state) => {
     if (state === "ended") {
       setPlaying(false);
-      // Alert.alert("video has finished playing!");
     }
   }, []);
 
