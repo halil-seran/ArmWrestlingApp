@@ -39,30 +39,30 @@ export const SectionsScreen = () => {
   const [loaded, setLoaded] = useState(false);
   const [timeRemaining, setTimeRemaining] = useState(10);
 
-  useEffect(() => {
-    console.log("delete + set time remain to 60 "+timeRemaining);
-    setTimeout(() => {
-      timeRemaining > 0 && setTimeRemaining((time) => time - 1);
-    }, 1000);
-    if (timeRemaining < 1) {
-      interstitial.show();
-    }
-  }, [timeRemaining]);
+  // useEffect(() => {
+  //   console.log("delete + set time remain to 60 "+timeRemaining);
+  //   setTimeout(() => {
+  //     timeRemaining > 0 && setTimeRemaining((time) => time - 1);
+  //   }, 1000);
+  //   if (timeRemaining < 1) {
+  //     interstitial.show();
+  //   }
+  // }, [timeRemaining]);
 
-  useEffect(() => {
-    const unsubscribe = interstitial.addAdEventListener(
-      AdEventType.LOADED,
-      () => {
-        setLoaded(true);
-      }
-    );
-    interstitial.load();
-    return unsubscribe;
-  }, []);
+  // useEffect(() => {
+  //   const unsubscribe = interstitial.addAdEventListener(
+  //     AdEventType.LOADED,
+  //     () => {
+  //       setLoaded(true);
+  //     }
+  //   );
+  //   interstitial.load();
+  //   return unsubscribe;
+  // }, []);
 
-  if (!loaded) {
-    return null;
-  }
+  // if (!loaded) {
+  //   return null;
+  // }
 
   return (
     <SafeAreaView style={styles.container}>

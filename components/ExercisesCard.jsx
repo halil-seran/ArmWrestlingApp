@@ -47,12 +47,12 @@ export const ExercisesCard = ({ item }) => {
           <View style={styles.modalView}>
             <YoutubePlayer
               height={windowHeight / 4.5}
-              width={windowWidth / 1.3}
+              width={windowWidth / 1.2}
               play={playing}
               videoId={item.link}
               onChangeState={onStateChange}
             />
-            <ScrollView style={{ flex: 1 }}>
+            <ScrollView style={{ flex: 1, marginVertical:17 }}>
               <Text style={styles.modalText}>{item.detail}</Text>
             </ScrollView>
             <View style={styles.modalButtons}>
@@ -173,21 +173,15 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   modalView: {
-    width: windowWidth / 1.2,
-    height: windowHeight / 1.5,
-    margin: 20,
+    width: windowWidth / 1.1,
+    height: windowHeight / 1.3,
     backgroundColor: "white",
     borderRadius: 20,
-    padding: 35,
+    padding: 20,
     alignItems: "center",
     shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 4,
-    elevation: 5,
+    shadowRadius: 20,
+    elevation: 15,
   },
   button: {
     borderRadius: 10,
@@ -207,9 +201,8 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   modalText: {
-    marginBottom: 5,
-    fontSize: 18,
-    textAlign: "center",
+    fontSize: 20,
+    textAlign: "left",
   },
   modalButtons: {
     flexDirection: "row",
