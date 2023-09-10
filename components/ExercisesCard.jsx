@@ -61,7 +61,7 @@ export const ExercisesCard = ({ item }) => {
                 onPress={togglePlaying}
               >
                 <Text style={styles.textStyle}>
-                  {playing ? "pause" : "play"}
+                  {playing ? "Duraklat" : "Oynat"}
                 </Text>
               </Pressable>
 
