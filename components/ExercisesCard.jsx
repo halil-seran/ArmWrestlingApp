@@ -52,24 +52,20 @@ export const ExercisesCard = ({ item }) => {
               videoId={item.link}
               onChangeState={onStateChange}
             />
-            <ScrollView style={{ flex: 1, marginVertical:17 }}>
+            <ScrollView style={{ flex: 1, marginVertical: 17 }}>
               <Text style={styles.modalText}>{item.detail}</Text>
             </ScrollView>
             <View style={styles.modalButtons}>
               <Pressable
-                style={[styles.button, styles.buttonClose]}
-                onPress={togglePlaying}
-              >
-                <Text style={styles.textStyle}>
-                  {playing ? "Duraklat" : "Oynat"}
-                </Text>
-              </Pressable>
-
-              <Pressable
-                style={[styles.button, styles.buttonClose]}
+                style={styles.button}
                 onPress={() => setModalVisible(!modalVisible)}
               >
                 <Text style={styles.textStyle}>Kapat</Text>
+              </Pressable>
+              <Pressable style={styles.button} onPress={togglePlaying}>
+                <Text style={styles.textStyle}>
+                  {playing ? "Duraklat" : "Oynat"}
+                </Text>
               </Pressable>
             </View>
           </View>
@@ -188,15 +184,10 @@ const styles = StyleSheet.create({
     padding: 10,
     elevation: 2,
     width: windowWidth / 3.5,
-  },
-  buttonOpen: {
-    backgroundColor: "#F194FF",
-  },
-  buttonClose: {
-    backgroundColor: "#2196F3",
+    backgroundColor: "#b8c0ff",
   },
   textStyle: {
-    color: "white",
+    color: "black",
     fontWeight: "bold",
     textAlign: "center",
   },
