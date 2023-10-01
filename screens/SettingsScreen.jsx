@@ -1,4 +1,4 @@
-import { Text, View, SafeAreaView, StyleSheet } from "react-native";
+import { Text, View, SafeAreaView, StyleSheet, Pressable } from "react-native";
 import { useEffect, useState } from "react";
 import {
   BannerAd,
@@ -7,6 +7,7 @@ import {
   AdEventType,
 } from "react-native-google-mobile-ads";
 import { Dimensions } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
 const windowWidth = Dimensions.get("window").width;
 
@@ -31,35 +32,54 @@ export const SettingsScreen = () => {
   const [loaded, setLoaded] = useState(false);
   const [timeRemaining, setTimeRemaining] = useState(30);
 
-  useEffect(() => {
-    console.log("delete + set time remain to 320 " + timeRemaining);
-    setTimeout(() => {
-      timeRemaining > 0 && setTimeRemaining((time) => time - 1);
-    }, 1000);
-    if (timeRemaining < 1) {
-      interstitial.show();
-    }
-  }, [timeRemaining]);
+  const navigation = useNavigation();
 
-  useEffect(() => {
-    const unsubscribe = interstitial.addAdEventListener(
-      AdEventType.LOADED,
-      () => {
-        setLoaded(true);
-      }
-    );
-    interstitial.load();
-    return unsubscribe;
-  }, []);
+  // useEffect(() => {
+  //   console.log("delete + set time remain to 320 " + timeRemaining);
+  //   setTimeout(() => {
+  //     timeRemaining > 0 && setTimeRemaining((time) => time - 1);
+  //   }, 1000);
+  //   if (timeRemaining < 1) {
+  //     interstitial.show();
+  //   }
+  // }, [timeRemaining]);
 
-  if (!loaded) {
-    return null;
-  }
+  // useEffect(() => {
+  //   const unsubscribe = interstitial.addAdEventListener(
+  //     AdEventType.LOADED,
+  //     () => {
+  //       setLoaded(true);
+  //     }
+  //   );
+  //   interstitial.load();
+  //   return unsubscribe;
+  // }, []);
+
+  // if (!loaded) {
+  //   return null;
+  // }
 
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.screen}>
-        <Text>Settings screen</Text>
+        <Pressable style={styles.linesArea}>
+          <Text style={styles.buttonText}>Languages (comingSoon)</Text>
+        </Pressable>
+        <Pressable style={styles.linesArea}>
+          <Text style={styles.buttonText}>Invite Friends</Text>
+        </Pressable>
+        <Pressable
+          style={styles.linesArea}
+          onPress={() => navigation.navigate("PrivacyPolicy")}
+        >
+          <Text style={styles.buttonText}>Privacy Policy</Text>
+        </Pressable>
+        <Pressable style={styles.linesArea}>
+          <Text style={styles.buttonText}>Report a bug</Text>
+        </Pressable>
+        <Pressable style={styles.linesArea}>
+          <Text style={styles.buttonText}>App Version:1.0 </Text>
+        </Pressable>
       </View>
       <View style={styles.AdsArea}>
         <BannerAd
@@ -86,6 +106,23 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
+    backgroundColor: "#eeeeee",
+    marginTop: 30,
   },
-  screen: { flex: 1 },
+  screen: {
+    flex: 1,
+  },
+  linesArea: {
+    elevation: 10,
+    backgroundColor: "white",
+    width: "100%",
+    height: 50,
+    marginTop: 15,
+    alignItems: "flex-start",
+    justifyContent: "center",
+    paddingLeft: 20,
+  },
+  buttonText: {
+    fontSize: 23,
+  },
 });

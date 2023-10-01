@@ -6,6 +6,7 @@ import { SectionsScreen } from "../screens/SectionsScreen";
 import { TechniquesScreen } from "../screens/TechniquesScreen";
 import { SettingsScreen } from "../screens/SettingsScreen";
 import { ExercisesScreen } from "../screens/ExercisesScreen";
+import { PrivacyPolicy } from "../screens/settingsScreens/PrivacyPolicy";
 
 const Tab = createBottomTabNavigator();
 
@@ -29,6 +30,29 @@ function ExercisesStackScreen() {
         }}
         name="Exercise"
         component={ExercisesScreen}
+      />
+    </HomeStack.Navigator>
+  );
+}
+
+function SettingsStackScreen() {
+  return (
+    <HomeStack.Navigator>
+      <HomeStack.Screen
+        options={{
+          tabBarShowLabel: false,
+          headerShown: false,
+        }}
+        name="Section"
+        component={SettingsScreen}
+      />
+      <HomeStack.Screen
+        options={{
+          tabBarShowLabel: false,
+          headerShown: false,
+        }}
+        name="PrivacyPolicy"
+        component={PrivacyPolicy}
       />
     </HomeStack.Navigator>
   );
@@ -67,8 +91,8 @@ export function MyTabs() {
           }}
         />
         <Tab.Screen
-          name="Setting"
-          component={SettingsScreen}
+          name="SettingsStack"
+          component={SettingsStackScreen}
           options={{
             // tabBarLabel: "Home",
             tabBarShowLabel: false,
