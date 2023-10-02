@@ -66,7 +66,7 @@ export const SettingsScreen = () => {
           <Text style={styles.buttonText}>Languages (comingSoon)</Text>
         </Pressable>
         <Pressable style={styles.linesArea}>
-          <Text style={styles.buttonText}>Invite Friends</Text>
+          <Text style={styles.buttonText}>Invite Friends(copied the lınk of app)</Text>
         </Pressable>
         <Pressable
           style={styles.linesArea}
@@ -77,9 +77,9 @@ export const SettingsScreen = () => {
         <Pressable style={styles.linesArea}>
           <Text style={styles.buttonText}>Report a bug</Text>
         </Pressable>
-        <Pressable style={styles.linesArea}>
+        <View style={styles.linesArea}>
           <Text style={styles.buttonText}>App Version:1.0 </Text>
-        </Pressable>
+        </View>
       </View>
       <View style={styles.AdsArea}>
         <BannerAd
