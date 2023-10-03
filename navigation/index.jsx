@@ -7,6 +7,8 @@ import { TechniquesScreen } from "../screens/TechniquesScreen";
 import { SettingsScreen } from "../screens/SettingsScreen";
 import { ExercisesScreen } from "../screens/ExercisesScreen";
 import { PrivacyPolicy } from "../screens/settingsScreens/PrivacyPolicy";
+import { ReportBug } from "../screens/settingsScreens/ReportBug";
+import { Languages } from "../screens/settingsScreens/Languages";
 
 const Tab = createBottomTabNavigator();
 
@@ -53,6 +55,22 @@ function SettingsStackScreen() {
         }}
         name="PrivacyPolicy"
         component={PrivacyPolicy}
+      />
+      <HomeStack.Screen
+        options={{
+          tabBarShowLabel: false,
+          headerShown: false,
+        }}
+        name="Languages"
+        component={Languages}
+      />
+      <HomeStack.Screen
+        options={{
+          tabBarShowLabel: false,
+          headerShown: false,
+        }}
+        name="ReportBug"
+        component={ReportBug}
       />
     </HomeStack.Navigator>
   );
